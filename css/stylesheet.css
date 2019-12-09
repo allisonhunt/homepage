@@ -1,0 +1,63 @@
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.grid-container {
+    display: grid;
+    width: 1280px;
+    grid-template-columns: repeat(6, 1fr);
+    margin: auto;
+}
+
+.header{
+    width: 1280px;
+    height: 40px;
+    background-color: wheat;
+    margin-inline-start: auto;
+    margin-inline-end: auto; 
+    
+}
+
+.animalwiki{
+    grid-column: 1/7;
+    font-size: 60px;
+    background-color: olive;
+    text-align: center;
+    text-decoration: none;
+    color: wheat;
+}
+
+.smallsite{
+    grid-column: 1/7;
+    font-size: 60px;
+    background-color: saddlebrown;
+    text-align: center;
+    text-decoration: none;
+    color: wheat;
+}
+
+.mobileapp{
+    grid-column: 1/7;
+    font-size: 60px;
+    background-color: darkgray;
+    text-align: center;
+    text-decoration: none;
+    color: wheat;
+}
+
+.footer{
+    background-color: wheat;
+    width: 1280px;
+    height: 40px;
+   margin:auto;
+    padding-top: 5px;
+}
+
+.footer p{
+    text-align: center;
+    color: #825432;
+    position: relative;
+    bottom: 5px;
+
+}
